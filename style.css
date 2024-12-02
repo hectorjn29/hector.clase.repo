@@ -13,6 +13,45 @@ body {
 /* utilizamos display flex para que el texto ocupe solo su propio espacio no el del contenedor
 block si queremos que ocupe todo
 para elementos sueltos display inline*/
-.head-top {
+
+.headerr-top {
+    margin: 0.5rem;
+    background-color: white ;
+    color: #333333cc;
+    font-size: 0.7rem;
+    padding-block: 0.8rem;
+    padding-inline: 0.8rem;
     display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid bisque;
+    border-top: 2px solid bisque;
+    border-radius: 30px;
+    box-shadow: 0px 5px 20px 5px bisque ;
+
+}
+
+.header1 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    padding-left: 5rem;
+    
+}
+.header2 {
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    padding-right: 7rem ;
+}
+.itemuno {
+    border-right: 2px solid bisque  ;
+    padding-right: 1rem;
+}
+
+.redes {
+    background-color: green;
+}
+.logo {
+    width: 150px;
+    background-color: blue;
 }
