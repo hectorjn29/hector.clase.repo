@@ -1,1 +1,18 @@
-creando css base
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: MontHector;
+
+}
+body {
+    background-color: azure;
+}
+/* utilizamos display flex para que el texto ocupe solo su propio espacio no el del contenedor
+block si queremos que ocupe todo
+para elementos sueltos display inline*/
+.head-top {
+    display: flex;
+}

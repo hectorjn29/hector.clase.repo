@@ -1,1 +1,5 @@
-agregando hoja fonts css
+@font-face {
+    font-family: MontHector;
+    src: url("/fonts/static/Montserrat-Medium.ttf") format("truetype");
+}
+
