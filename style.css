@@ -5,6 +5,7 @@
     text-decoration: none;
     list-style: none;
     font-family: MontHector;
+    color: #333333cc;
 
 }
 body {
@@ -47,11 +48,20 @@ para elementos sueltos display inline*/
     border-right: 2px solid bisque  ;
     padding-right: 1rem;
 }
+/* fin del header top*/
+/* inicio de nav*/
 
-.redes {
-    background-color: green;
-}
 .logo {
-    width: 150px;
-    background-color: blue;
+    width: 125px;
+
+}
+.main {
+    border-bottom: 2px solid bisque;
+    box-shadow: 0px 5px 20px bisque ;
+}
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
